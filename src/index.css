@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-dm: "DM Sans", sans-serif;
+  --font-script: "Dancing Script", cursive;
+  --color-primary: #3368c0;
+  --color-secondary: #eef4ff;
+  --color-background: #f7faff;
+  --color-darkBlue: #1b4282;
+  --color-lightBlue: #bdd6ff;
+  --color-dimBlue: #f7faff;
+  --color-overlayBg: rgba(0, 0, 0, 0.3);
+}
+
+html {
+  font-family: var(--font-dm);
+  scroll-behavior: smooth;
+}

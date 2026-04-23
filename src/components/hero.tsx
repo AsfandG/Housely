@@ -13,11 +13,11 @@ const Hero = () => {
       </div>
 
       <div className="w-full md:flex-1 flex gap-4 ">
-        <div className="flex-1 bg-[url('https://images.unsplash.com/photo-1774685110718-c5b4fe026144?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-size-[300%_100%] bg-left h-60 md:h-84 rounded-md"></div>
+        <div className="flex-1 bg-[url('/images/hero-img.jpg')] bg-no-repeat bg-size-[300%_100%] bg-left h-60 md:h-84 rounded-md"></div>
 
-        <div className="flex-1 mt-10 bg-[url('https://images.unsplash.com/photo-1774685110718-c5b4fe026144?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-size-[300%_100%] bg-center h-60 md:h-84 rounded-md"></div>
+        <div className="flex-1 mt-10 bg-[url('/images/hero-img.jpg')] bg-no-repeat bg-size-[300%_100%] bg-center h-60 md:h-84 rounded-md"></div>
 
-        <div className="flex-1 bg-[url('https://images.unsplash.com/photo-1774685110718-c5b4fe026144?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-size-[300%_100%] bg-right h-60 md:h-84 rounded-md"></div>
+        <div className="flex-1 bg-[url('/images/hero-img.jpg')] bg-no-repeat bg-size-[300%_100%] bg-right h-60 md:h-84 rounded-md"></div>
       </div>
     </section>
   );

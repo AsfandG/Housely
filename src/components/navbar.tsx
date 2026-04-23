@@ -30,7 +30,9 @@ const Navbar = () => {
       <div className="bg-background stickey top-0 z-10">
         <nav className="max-w-screen mx-auto py-4 px-6">
           <div className="flex items-center justify-between">
-            <h2 className="font-script text-4xl font-bold">Housely</h2>
+            <h2 className="font-script text-4xl font-extrabold h-12 text-gradient">
+              Housely
+            </h2>
 
             <ul className="hidden md:flex md:gap-14">
               <li>

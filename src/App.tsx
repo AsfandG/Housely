@@ -1,3 +1,5 @@
+import CallToAction from "./components/call-to-action";
+import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import Services from "./components/services";
@@ -14,6 +16,8 @@ const App = () => {
       <Services />
       <Work />
       <Testimonials />
+      <CallToAction />
+      <Footer />
     </div>
   );
 };

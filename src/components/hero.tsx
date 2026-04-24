@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <section className="max-w-7xl flex flex-col-reverse gap-12 items-center mx-auto py-16 px-6 md:flex-row">
+    <section
+      id="hero"
+      className="max-w-7xl flex flex-col-reverse gap-12 items-center mx-auto py-16 px-6 md:flex-row"
+    >
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-3xl font-bold text-gradient mb-3 md:text-4xl md:leading-12 lg:text-5xl lg:leading-16 md:w-4/5">
           Building Dreams, Crafting Homes

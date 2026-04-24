@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import MobileNav from "./mobile-nav";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,8 +27,10 @@ const Navbar = () => {
   }, []);
   return (
     <>
-      {isMenuOpen && <MobileNav setIsMenuOpen={setIsMenuOpen} />}
-      <div className="bg-background stickey top-0 z-10">
+      {isMenuOpen && (
+        <MobileNav isOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      )}
+      <div className="bg-background sticky top-0 z-10">
         <nav className="max-w-screen mx-auto py-4 px-6">
           <div className="flex items-center justify-between">
             <h2 className="font-script text-4xl font-extrabold h-12 text-gradient">
@@ -36,24 +39,52 @@ const Navbar = () => {
 
             <ul className="hidden md:flex md:gap-14">
               <li>
-                <a className="menu-item" href="">
+                <Link
+                  to="hero"
+                  smooth
+                  spy
+                  offset={-80}
+                  className="menu-item"
+                  href=""
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="menu-item" href="">
+                <Link
+                  to="services"
+                  smooth
+                  spy
+                  offset={-80}
+                  className="menu-item"
+                  href=""
+                >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="menu-item" href="">
+                <Link
+                  to="our-work"
+                  smooth
+                  spy
+                  offset={-80}
+                  className="menu-item"
+                  href=""
+                >
                   Our Work
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="menu-item" href="">
+                <Link
+                  to="testimonials"
+                  smooth
+                  spy
+                  offset={-80}
+                  className="menu-item"
+                  href=""
+                >
                   Testimonials
-                </a>
+                </Link>
               </li>
             </ul>
 

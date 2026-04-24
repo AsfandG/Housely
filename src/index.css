@@ -29,11 +29,14 @@
   .gallery-img {
     @apply w-full h-72 md:h-full object-cover;
   }
+
+  .arrow-btn {
+    @apply bg-white p-0.5 border border-darkBlue rounded-md absolute top-[45%];
+  }
 }
 
 html {
   font-family: var(--font-dm);
-  scroll-behavior: smooth;
 }
 
 button {

@@ -57,7 +57,7 @@ export const testimonials = [
       "https://images.unsplash.com/photo-1619895862022-09114b41f16f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     review: "Outstanding craftsmanship and attention to detail.",
     description:
-      "The team transformed our vision into reality. From planning to execution, everything was handled professionally and the final result exceeded our expectations.",
+      "The team transformed our vision into reality. From planning to execution,the final result exceeded our expectations.",
   },
   {
     id: 2,
